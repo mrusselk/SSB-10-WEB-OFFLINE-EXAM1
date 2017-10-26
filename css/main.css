@@ -508,11 +508,18 @@ footer{
     padding: 0;
 }
 .footer-nav ul li{
+    position: relative;
     display: inline-block;
-    padding: 0 7px;
-    /*padding-bottom: 3px;*/
-    border-right: 1px solid #5d5d5d;
-    
+    padding: 0 7px;    
+}
+.footer-nav ul li:after{
+    position: absolute;
+    content: '';
+    width:1px;
+    height: 12px;
+    right:0;
+    top:3px;
+    background-color: #5d5d5d;
 }
 .footer-nav ul li:last-child{
     border-right: 0px solid #5d5d5d;

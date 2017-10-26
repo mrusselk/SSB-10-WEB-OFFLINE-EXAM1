@@ -521,6 +521,16 @@ footer{
     top:3px;
     background-color: #5d5d5d;
 }
+.footer-nav ul li:last-child:after{
+    position: absolute;
+    content: '';
+    width:1px;
+    height: 0px;
+    right:0;
+    top:3px;
+    background-color: #5d5d5d;
+}
+
 .footer-nav ul li:last-child{
     border-right: 0px solid #5d5d5d;
 }
